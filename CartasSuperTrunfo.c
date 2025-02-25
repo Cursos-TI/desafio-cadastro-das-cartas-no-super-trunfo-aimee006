@@ -5,80 +5,80 @@ int main() {
         // DECLARAÇÃO DE VARIÁVEIS
 
     char estado;
-    char código [20];
+    char codigo [20];
     char cidade [50];
-    int população;
-    float área;
+    int populacao;
+    float area;
     float pib;
-    int atrações;
+    int atracoes;
 
         // DIGITAR PRIMEIRA CARTA
 
     printf("\nDigite o estado: ");
     scanf(" %c", &estado);
 
-    printf("Digite o código: ");
-    scanf("%s", código);
+    printf("Digite o codigo: ");
+    scanf("%s", codigo);
 
     printf("Digite a cidade: ");
     scanf("%s", cidade);
 
-    printf("Digite a população: ");
-    scanf("%d", &população);
+    printf("Digite a populacao: ");
+    scanf("%d", &populacao);
 
-    printf("Digite a área em km²: ");
-    scanf("%f", &área);
+    printf("Digite a area em km²: ");
+    scanf("%f", &area);
 
     printf("Digite o PIB: ");
     scanf("%f", &pib);
 
-    printf("Digite o número de atrações turísticas: ");
-    scanf("%d", &atrações);
+    printf("Digite o numero de atracoes turisticas: ");
+    scanf("%d", &atracoes);
 
         // IMPRESSÃO DOS DADOS DA PRIMEIRA CARTA
 
     printf("\nCarta 1\n");
     printf("Estado: %c\n", estado);
-    printf("Código: %s\n", código);
+    printf("Codigo: %s\n", codigo);
     printf("Cidade: %s\n", cidade);
-    printf("População: %d de habitantes\n", população);
-    printf("Área: %.2f km²\n", área);
-    printf("PIB: %.2f bilhões de reais\n", pib);
-    printf("Atrações turísticas: %d\n", atrações);
+    printf("Populacao: %d de habitantes\n", populacao);
+    printf("Area: %.2f km²\n", area);
+    printf("PIB: %.2f bilhoes de reais\n", pib);
+    printf("Atracoes turisticas: %d\n", atracoes);
 
         // DIGITAR SEGUNDA CARTA
 
     printf("\nDigite o estado: ");
     scanf(" %c", &estado);
 
-    printf("Digite o código: ");
-    scanf("%s", código);
+    printf("Digite o codigo: ");
+    scanf("%s", codigo);
 
     printf("Digite a cidade: ");
     scanf("%s", cidade);
 
-    printf("Digite a população: ");
-    scanf("%d", &população);
+    printf("Digite a populacao: ");
+    scanf("%d", &populacao);
 
-    printf("Digite a área em km²: ");
-    scanf("%f", &área);
+    printf("Digite a area em km²: ");
+    scanf("%f", &area);
 
     printf("Digite o PIB: ");
     scanf("%f", &pib);
 
-    printf("Digite o número de atrações turísticas: ");
-    scanf("%d", &atrações);
+    printf("Digite o numero de atracoes turisticas: ");
+    scanf("%d", &atracoes);
 
         // IMPRESSÃO DOS DADOS DA SEGUNDA CARTA
 
     printf("\nCarta 2\n");
     printf("Estado: %c\n", estado);
-    printf("Código: %s\n", código);
+    printf("Codigo: %s\n", codigo);
     printf("Cidade: %s\n", cidade);
-    printf("População: %d de habitantes\n", população);
-    printf("Área: %.2f km²\n", área);
-    printf("PIB: %.2f bilhões de reais\n", pib);
-    printf("Atrações turísticas: %d\n", atrações);
+    printf("Populacao: %d de habitantes\n", populacao);
+    printf("Area: %.2f km²\n", area);
+    printf("PIB: %.2f bilhoes de reais\n", pib);
+    printf("Atracoes turisticas: %d\n", atracoes);
 
         // FIM
 
